@@ -1,0 +1,33 @@
+body{
+    color:#fff8c5;
+    background-color: rgb(121, 197, 98);
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    text-align: center;
+    color:rgb(126, 87, 55)
+}
+
+h2{
+    text-align: center;  
+}
+
+h3{
+    text-align: center;
+    color:rgb(192, 126, 81)
+}
+
+img{
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    margin: 10px;
+
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(245, 198, 145);
+    padding: 3px;
+    color: rgb(94, 61, 12);
+}

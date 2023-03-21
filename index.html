@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <style>
+            .link{color: rgb(112, 85, 50);}  
+
+        </style>
+        <title>Página web de hurones</title>
+        <link href="style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    </head>
+   
+    <body> 
+        <!--pongo el símbolo menor que, admiración y dos rayas, así hago comentarios-->
+<h1>Página de mascotas</h1>
+<h2>Página de hurones bonitos</h2>
+<h3>Hecha por: Mirna Márquez</h3>
+
+<!--Agregar imagen desde internet-->
+<img src="https://www.clinicaveterinariazarpa.com/wp-content/uploads/2019/04/ferret.jpg">
+
+<br>
+
+<!--Ahora cómo agregar imagenesdesde nuestra computadora-->
+<img src="imagenes/huron.jpg">
+
+<!--Listas en html-->
+
+    <h3>LISTA DE HURONCITOS</h3>
+    <p>3 cosas que <strong>aman</strong>:</p> <!--strong para negritas-->
+
+    <!--LISTAS ORDENADAS-->
+    <ol>
+        <li>Dormir</li>
+        <li>Tropezar</li>
+        <li>Comer</li>
+    </ol>
+
+     <!--LISTAS DESORDENADA-->
+     <p>3 cosas que <strong>odian</strong>:</p>
+     <ul>
+        <li>bañarse</li>  <!--li*5 y se ponen automaticamente 5 elementos-->
+        <li>ir al veterinario</li>
+        <li>salir a la calle</li>
+     </ul>
+
+     <!--CREAR ENLACES EXTERNOS-->
+     <p>Si quieres ver más fotos de hurones bonitos da clic <strong><a class="link" href="https://www.google.com/search?q=hurones&rlz=1C1ONGR_esMX1021MX1021&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi9i-rzp_z8AhVFI0QIHdHIB5kQ_AUoAXoECAEQAw&biw=620&bih=588&dpr=1"target="_blank">aquí</a></strong></p>
+    <!--para abrir enlaces en una nueva pantalla ponemos target=_"blank"-->
+
+      <!--CREAR FORMULARIOS con botones de radio-->
+      <form>
+        <p>¿Tu hurón es cachorro o adulto?</p>
+        <label>
+            <input id="cachorro" type="radio" value="cachorro" 
+name="cachorro-adulto">cachorro
+</label>
+<br>
+<label>
+    <input id="adulto" type="radio" value="adulto" 
+name="cachorro-adulto"> adulto
+        </label>
+        <!--CREAR FORMULARIOS con casilla de verificacion-->
+        <p>¿Cómo es el caracter de tu huron?</p>
+        <label>
+            <input id="jugueton" type="checkbox" value="jugueton" name="personalidad">jugueton
+        </label>
+        <br>
+        <label>
+            <input id="perezoso" type="checkbox" value="perezoso" name="personalidad">perezoso
+        </label>
+        <br>
+        <label>
+            <input id="intrépido" type="checkbox" value="intrépido" name="personalidad">intrépido
+            </label>
+      </form>
+
+<footer>
+    <p><small>Esta página fue creada durante el BootCamp de <strong><a class="link" href="https://tecnolochicas.mx/"target="_blank">TecnolochicasPro</strong></a></small></p>
+</footer>
+    </body>
+</html>
